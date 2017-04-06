@@ -10,7 +10,7 @@ const ora = require('ora');
 let spinner = ora({text: 'Downloading Electron', stream: process.stdout}).start();
 
 // TODO: Report error with dropbox url (404 not found).
-//const ELECTRON_URL = 'https://dl.dropboxusercontent.com/u/71884/Electron%201.4.12%20with%20window%20level%20fix.zip';
+// const ELECTRON_URL = 'https://dl.dropboxusercontent.com/u/71884/Electron%201.4.12%20with%20window%20level%20fix.zip';
 const ELECTRON_URL = 'https://github.com/electron/electron/releases/download/v1.6.2/electron-v1.6.2-darwin-x64.zip';
 const VENDOR_PATH = ['..', 'app', 'vendor'];
 
